@@ -7,6 +7,8 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+// user : simpleDBUser
+// pass: EyZxhMDHq5g4DhqC
 app.get('/', (req,res) => {
     res.send('siple curd server running')
 })
